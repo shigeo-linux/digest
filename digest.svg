@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <rect width="48" height="48" rx="8" fill="#2b2d30"/>
+  <!-- Document -->
+  <rect x="10" y="6" width="22" height="28" rx="2" fill="#f0ebe0"/>
+  <!-- Folded corner -->
+  <polygon points="26,6 32,6 32,12" fill="#c8b89a"/>
+  <polygon points="26,6 26,12 32,12" fill="#e0d9cc"/>
+  <!-- Text lines -->
+  <line x1="14" y1="16" x2="28" y2="16" stroke="#c8b89a" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="14" y1="20" x2="28" y2="20" stroke="#c8b89a" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="14" y1="24" x2="28" y2="24" stroke="#c8b89a" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="14" y1="28" x2="22" y2="28" stroke="#c8b89a" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- AI spark -->
+  <circle cx="35" cy="35" r="8" fill="#c8a96e"/>
+  <text x="35" y="39" text-anchor="middle" font-size="10" fill="#1e2024" font-weight="bold">AI</text>
+</svg>

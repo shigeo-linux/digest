@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Digest
+GenericName=PDF Summariser
+Comment=AI-powered PDF summariser — get a one-page summary with key points
+Exec=python3 /opt/digest/digest.py %u
+Icon=digest
+Terminal=false
+Categories=Office;Utility;
+Keywords=pdf;summary;AI;summarise;
+MimeType=application/pdf;
+StartupNotify=true

@@ -1,0 +1,76 @@
+/* digest stylesheet */
+
+window {
+    background-color: #f5f4f0;
+}
+
+.file-area {
+    background-color: #ffffff;
+    border: 2px dashed #c8b89a;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.file-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2a2218;
+}
+
+.file-meta {
+    font-size: 12px;
+    color: #7a7060;
+}
+
+.summary-view {
+    background-color: #ffffff;
+    border: 1px solid #ddd9d0;
+    border-radius: 6px;
+    font-family: "Liberation Serif", Georgia, serif;
+    font-size: 13px;
+    padding: 8px;
+}
+
+.action-btn {
+    background-color: #c8a96e;
+    color: #1e1c18;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+    padding: 6px 18px;
+}
+
+.action-btn:hover {
+    background-color: #d4b87a;
+}
+
+.action-btn:disabled {
+    background-color: #d0ccc4;
+    color: #8a8880;
+}
+
+.secondary-btn {
+    border-radius: 4px;
+    padding: 5px 14px;
+}
+
+.status-bar {
+    background-color: #e8e4dc;
+    border-top: 1px solid #d0ccc4;
+    padding: 4px 12px;
+    font-size: 11px;
+    color: #6a6860;
+}
+
+.warning-bar {
+    background-color: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 4px;
+    padding: 8px 12px;
+    color: #856404;
+    font-size: 12px;
+}
+
+spinner {
+    color: #c8a96e;
+}
