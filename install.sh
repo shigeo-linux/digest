@@ -32,7 +32,7 @@ sudo "${INSTALL_DIR}/venv/bin/pip" install --quiet pypdf pytesseract
 echo "Installing icon..."
 sudo mkdir -p /usr/share/icons/hicolor/scalable/apps
 sudo cp "${INSTALL_DIR}/digest.svg" /usr/share/icons/hicolor/scalable/apps/digest.svg
-sudo gtk-update-icon-cache /usr/share/icons/hicolor 2>/dev/null || true
+sudo gtk-update-icon-cache -f -t /usr/share/icons/hicolor 2>/dev/null || true
 
 echo "Installing desktop entry..."
 sudo cp "${INSTALL_DIR}/digest.desktop" "${DESKTOP_DIR}/"
