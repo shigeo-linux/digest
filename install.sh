@@ -19,7 +19,7 @@ sudo apt-get install -y \
     python3-requests \
     gir1.2-poppler-0.18 \
     tesseract-ocr python3-pil
-pip3 install --user --break-system-packages pypdf pytesseract 2>/dev/null || true
+sudo pip3 install --break-system-packages pypdf pytesseract
 
 echo "Copying application files..."
 sudo mkdir -p "${INSTALL_DIR}"
