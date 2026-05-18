@@ -42,6 +42,9 @@ exec python3 /opt/digest/digest.py "$@"
 EOF
 sudo chmod +x /usr/local/bin/digest
 
+echo "Creating config directory..."
+mkdir -p "$HOME/.config/${APP_NAME}"
+
 echo ""
 echo "=== Installation complete! ==="
 echo "Run: digest"
