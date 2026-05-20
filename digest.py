@@ -6,7 +6,10 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import gi
 gi.require_version('Gtk', '3.0')
-from gi.repository import Gtk, Gio
+from gi.repository import GLib, Gdk, Gtk, Gio
+
+GLib.set_prgname('com.digest.app')
+Gdk.set_program_class('com.digest.app')
 
 from ui.main_window import MainWindow
 
